@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Profil Audiovisual",
+  "description": "Dashboard Profil Audiovisual Direktorat Cipta Karya untuk memonitor progres pengumpulan profil berdasarkan Provinsi, Tahun, dan Jenis Profil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

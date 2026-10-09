@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-bg: #FFFFFF;
+  --color-porsche-dark: #132324;
+  --color-porsche-teal: #1F3E47;
+  --color-porsche-sage: #5B7161;
+  --color-porsche-amber: #D3853E;
+  --color-porsche-cream: #E3D5B0;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #132324;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Custom scrollbar for table containers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(31, 62, 71, 0.08);
+}
+::-webkit-scrollbar-thumb {
+  background: #5B7161;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1F3E47;
+}
